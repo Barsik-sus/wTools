@@ -17,6 +17,7 @@ use ::wpublisher::*;
 
 //
 
+
 #[ cfg( not( feature = "no_std" ) ) ]
 fn main() -> Result< (), wca::Error >
 {
